@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg"
+    tools:context=".KueKering"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kue Kering"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="3000dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:id="@+id/K_txt1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/K_txt1"
+            android:text="Sarang Balam"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:id="@+id/K_txt2" />
+
+        <ImageButton
+            android:id="@+id/K_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/K_txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/sarangbalam"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/K_gambar1"
+            android:text="Kembamg Loyang"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:id="@+id/K_txt3"/>
+
+        <ImageButton
+            android:id="@+id/K_gambar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/K_txt3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/kuebunga"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/K_gambar2"
+            android:text="Kue Sapik"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:id="@+id/K_txt4"/>
+
+        <ImageButton
+            android:id="@+id/K_gambar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/K_txt4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/kuesapik"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

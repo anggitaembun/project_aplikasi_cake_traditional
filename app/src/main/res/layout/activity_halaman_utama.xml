@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HalamanUtama"
+    android:background="@drawable/bkg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cake Traditional"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="18dp"
+        android:id="@+id/U_txt1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_below="@id/U_txt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/U_img1"/>
+
+    <Button
+        android:id="@+id/U_btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/U_img1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:width="300dp"
+        android:padding="30dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="sans-serif-black"
+        android:text="Kue Basah Traditional"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/U_btn_1"
+        android:width="300dp"
+        android:padding="30dp"
+        android:text="Kue Kering Traditional"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textSize="16dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:id="@+id/U_btn_2"/>
+
+    <ImageView
+        android:id="@+id/profile_button"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_profile"
+        android:layout_marginLeft="300dp"/>
+
+
+
+
+</RelativeLayout>
+</ScrollView>

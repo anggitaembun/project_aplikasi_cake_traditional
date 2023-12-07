@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bkg2">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bkg2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img1"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="HALLO, SELAMAT DATANG "
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        tools:ignore="TextSizeCheck" />
+
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="3px"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="DI TREATRS SUMBAR CAKE TRADITIONAL"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:width="300dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="sans-serif-black"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_1"
+        android:width="300dp"
+        android:text="REGISTER"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textSize="16dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:id="@+id/btn_2"/>
+
+</RelativeLayout>
+</ScrollView>

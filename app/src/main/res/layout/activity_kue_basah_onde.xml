@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KueBasahOnde"
+    android:background="@drawable/bkg">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kue Onde-onde"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="3000dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:id="@+id/o_txt1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ondeonde"
+            android:id="@+id/o_gambar1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_gambar1"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:paddingLeft="10dp"
+            android:text="Deskripsi:"
+            android:id="@+id/o_txt2"/>
+
+        <TextView
+            android:id="@+id/o_txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt2"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="Onde-Onde merupakan sejenis kue tradisional yang termasuk ke dalam kelompok jajanan pasar. Kue ini terbuat dari tepung beras ketan yang umumnya diberi pewarna hijau melalui penggunaan daun pandan atau daun suji. Adonan Onde Onde dibentuk seperti bola-bola kecil dan diberi isian berupa gula merah lalu direbus dalam air mendidih. Onde-onde yang sudah masak lalu dibaluri parutan buah kelapa."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt3"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:paddingLeft="10dp"
+            android:text="Resep:"
+            android:id="@+id/o_txt4"/>
+
+        <TextView
+            android:id="@+id/o_txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt4"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- 250 gram tepung beras ketan."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/o_txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt5"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- 75 gram tepung beras."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/o_txt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt6"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- 200 ml air dan 40 gr gula pasir."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/o_txt8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt7"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- 5 lembar daun pandan serta 1/6 sdt perisa pandan. "
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/o_txt9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt8"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- 1/4 sdt garam dan  1/8 sdt vanile. "
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt9"
+            android:text="Komentar"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="550dp"
+            android:width="400dp"
+            android:background="@drawable/button_komentar"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="610dp"
+            android:width="50dp"
+            android:background="@drawable/button_komentar"
+            android:text="Send"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
