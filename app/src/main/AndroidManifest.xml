@@ -13,6 +13,33 @@
         android:theme="@style/Theme.LoginRegisterActivity"
         tools:targetApi="31">
         <activity
+            android:name=".KueKeringKarakKaliang"
+            android:exported="false" />
+        <activity
+            android:name=".KueKeringAraiPinang"
+            android:exported="false" />
+        <activity
+            android:name=".KueBasahGalamai"
+            android:exported="false" />
+        <activity
+            android:name=".KueBasahPinyaram"
+            android:exported="false" />
+        <activity
+            android:name=".KueKeringSapik"
+            android:exported="false" />
+        <activity
+            android:name=".KueKeringLoyang"
+            android:exported="false" />
+        <activity
+            android:name=".KueKeringBalam"
+            android:exported="false" />
+        <activity
+            android:name=".KueBasahBika"
+            android:exported="false" />
+        <activity
+            android:name=".KueBasahTalam"
+            android:exported="false" />
+        <activity
             android:name=".KueBasahOnde"
             android:exported="false" />
         <activity

@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/K_gambar1"
-            android:text="Kembamg Loyang"
+            android:text="Kambamg Loyang"
             android:layout_marginTop="40dp"
             android:layout_centerHorizontal="true"
             android:fontFamily="sans-serif-black"
@@ -90,6 +90,50 @@
             android:src="@drawable/kuesapik"
             tools:ignore="SpeakableTextPresentCheck" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/K_gambar3"
+            android:text="Arai Pinang"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:id="@+id/K_txt5"/>
+
+        <ImageButton
+            android:id="@+id/K_gambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/K_txt5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/araipinang"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/K_gambar4"
+            android:text="Karak Kaliang"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:id="@+id/K_txt6"/>
+
+        <ImageButton
+            android:id="@+id/K_gambar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/K_txt6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/karakkaliang"
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </RelativeLayout>
 

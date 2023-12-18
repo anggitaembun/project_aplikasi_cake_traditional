@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KueBasahOnde"
-    android:background="@drawable/bkg">
+    android:background="@drawable/bkg"
+    tools:context=".KueBasahGalamai"
+    tools:ignore="SpeakableTextPresentCheck">
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Onde-onde"
+            android:text="Galamai"
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="3000dp"
             android:layout_marginTop="20dp"
@@ -29,7 +31,7 @@
             android:layout_below="@id/o_txt1"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:src="@drawable/ondeonde"
+            android:src="@drawable/galamai"
             android:id="@+id/o_gambar1"/>
 
         <TextView
@@ -51,7 +53,7 @@
             android:layout_below="@id/o_txt2"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="Onde-Onde merupakan sejenis kue tradisional yang termasuk ke dalam kelompok jajanan pasar. Kue ini terbuat dari tepung beras ketan yang umumnya diberi pewarna hijau melalui penggunaan daun pandan atau daun suji. Adonan Onde Onde dibentuk seperti bola-bola kecil dan diberi isian berupa gula merah lalu direbus dalam air mendidih. Onde-onde yang sudah masak lalu dibaluri parutan buah kelapa."
+            android:text="Galamai merupakan salah satu cemilan berukuran kecil dengan bahan dasar tepung, beras ketan atau tepung sagu, di campur dengan gula aren serta santan. "
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -74,7 +76,7 @@
             android:layout_below="@id/o_txt4"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 250 gram tepung beras ketan."
+            android:text="- Tepung beras ketan 200 gram."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -85,7 +87,7 @@
             android:layout_below="@id/o_txt5"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 75 gram tepung beras."
+            android:text="- Santan kental 250."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -96,7 +98,7 @@
             android:layout_below="@id/o_txt6"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 200 ml air dan 40 gr gula pasir."
+            android:text="- Santan cair 175 ml."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -107,7 +109,7 @@
             android:layout_below="@id/o_txt7"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 5 lembar daun pandan serta 1/6 sdt perisa pandan. "
+            android:text="- Gula merah 300 gram. "
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -118,11 +120,24 @@
             android:layout_below="@id/o_txt8"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 1/4 sdt garam dan  1/8 sdt vanile. "
+            android:text="- Garam 1/2 sdt."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
         <TextView
+            android:id="@+id/o_txt10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt9"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- Kacang tanah sangrai secukupnya."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+
+        <TextView
+            android:id="@+id/komentar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/o_txt9"
@@ -133,18 +148,18 @@
             android:fontFamily="sans-serif-black"/>
 
         <EditText
-            android:id="@+id/komentar"
+            android:id="@+id/btn_komentar"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
+            android:layout_below="@id/komentar"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="550dp"
             android:width="410dp"
             android:background="@drawable/button_komentar"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button_send"
-            android:layout_below="@id/komentar"
+            android:layout_below="@id/btn_komentar"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="10dp"
@@ -152,7 +167,6 @@
             android:background="@drawable/button_send"
             android:text="Send"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
 
 
     </RelativeLayout>

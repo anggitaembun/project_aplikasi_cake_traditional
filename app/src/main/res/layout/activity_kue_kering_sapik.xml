@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KueBasahOnde"
+    tools:context=".KueKeringSapik"
     android:background="@drawable/bkg">
 
     <RelativeLayout
@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Onde-onde"
+            android:text="Kue Sapik"
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="3000dp"
             android:layout_marginTop="20dp"
@@ -29,7 +29,7 @@
             android:layout_below="@id/o_txt1"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:src="@drawable/ondeonde"
+            android:src="@drawable/kuesapik"
             android:id="@+id/o_gambar1"/>
 
         <TextView
@@ -51,7 +51,7 @@
             android:layout_below="@id/o_txt2"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="Onde-Onde merupakan sejenis kue tradisional yang termasuk ke dalam kelompok jajanan pasar. Kue ini terbuat dari tepung beras ketan yang umumnya diberi pewarna hijau melalui penggunaan daun pandan atau daun suji. Adonan Onde Onde dibentuk seperti bola-bola kecil dan diberi isian berupa gula merah lalu direbus dalam air mendidih. Onde-onde yang sudah masak lalu dibaluri parutan buah kelapa."
+            android:text="Kue sapik merupakan kue lebaran yang berasal dari Sumatera Barat, Kue tradisional ini memiliki rasa yang manis dan renyah. Dinamakan kue sapik, karena berdasarkan cara membuatnya yaitu dijepit, atau dalam bahasa Minang disapik."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -74,7 +74,7 @@
             android:layout_below="@id/o_txt4"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 250 gram tepung beras ketan."
+            android:text="Alat:"
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -85,7 +85,7 @@
             android:layout_below="@id/o_txt5"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 75 gram tepung beras."
+            android:text="- Cetakan kue sapik."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -94,9 +94,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/o_txt6"
+            android:layout_marginTop="10dp"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 200 ml air dan 40 gr gula pasir."
+            android:text=" Bahan:"
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -107,7 +108,7 @@
             android:layout_below="@id/o_txt7"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 5 lembar daun pandan serta 1/6 sdt perisa pandan. "
+            android:text="- Telur 3 butir. "
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -118,16 +119,71 @@
             android:layout_below="@id/o_txt8"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 1/4 sdt garam dan  1/8 sdt vanile. "
+            android:text="- Gula pasir 150 gram."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/o_txt10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt9"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- Santan 450 ml."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/o_txt11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt10"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- Margarin (dilelehkan)."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/o_txt12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt11"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- Tepung beras 250 gram."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/o_txt13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt12"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- Garam secukupnya."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/o_txt14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt13"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- Kayu manis secukupnya."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/o_txt9"
+            android:layout_below="@id/o_txt14"
             android:text="Komentar"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:paddingLeft="10dp"
             android:textColor="@color/black"
             android:fontFamily="sans-serif-black"/>
@@ -137,7 +193,7 @@
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="550dp"
+            android:layout_marginTop="590dp"
             android:width="410dp"
             android:background="@drawable/button_komentar"
             tools:ignore="SpeakableTextPresentCheck" />
@@ -152,9 +208,6 @@
             android:background="@drawable/button_send"
             android:text="Send"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-
-
     </RelativeLayout>
 
 </ScrollView>

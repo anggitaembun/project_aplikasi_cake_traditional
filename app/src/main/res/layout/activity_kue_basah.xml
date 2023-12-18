@@ -71,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/Bsh_gambar2"
-            android:text="Kue Bika/ Singgang"
+            android:text="Bika"
             android:layout_marginTop="40dp"
             android:layout_centerHorizontal="true"
             android:fontFamily="sans-serif-black"
@@ -87,6 +87,51 @@
             android:layout_marginTop="5dp"
             android:background="@drawable/button_shape"
             android:src="@drawable/kuebika"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Bsh_gambar3"
+            android:text="Pinyaram"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:id="@+id/Bsh_txt5"/>
+
+        <ImageButton
+            android:id="@+id/Bsh_gambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Bsh_txt5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/pinyaram"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Bsh_gambar4"
+            android:text="Galamai"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:id="@+id/Bsh_txt6"/>
+
+        <ImageButton
+            android:id="@+id/Bsh_gambar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Bsh_txt6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/galamai"
             tools:ignore="SpeakableTextPresentCheck" />
 
 

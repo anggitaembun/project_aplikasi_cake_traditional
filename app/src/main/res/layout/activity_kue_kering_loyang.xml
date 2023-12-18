@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KueBasahOnde"
+    tools:context=".KueKeringLoyang"
     android:background="@drawable/bkg">
 
     <RelativeLayout
@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Onde-onde"
+            android:text="Kambang Loyang"
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="3000dp"
             android:layout_marginTop="20dp"
@@ -29,7 +29,7 @@
             android:layout_below="@id/o_txt1"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:src="@drawable/ondeonde"
+            android:src="@drawable/kuebunga"
             android:id="@+id/o_gambar1"/>
 
         <TextView
@@ -51,7 +51,7 @@
             android:layout_below="@id/o_txt2"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="Onde-Onde merupakan sejenis kue tradisional yang termasuk ke dalam kelompok jajanan pasar. Kue ini terbuat dari tepung beras ketan yang umumnya diberi pewarna hijau melalui penggunaan daun pandan atau daun suji. Adonan Onde Onde dibentuk seperti bola-bola kecil dan diberi isian berupa gula merah lalu direbus dalam air mendidih. Onde-onde yang sudah masak lalu dibaluri parutan buah kelapa."
+            android:text=" Kue kembang goyang merupakan salah satu kue tradisional, kembang goyang sendiri memiliki bentuk menyerupai kelopak bunga maupun kembang. Kue kembang goyang dikenal sebagai kembang loyang di daerah Sumatera."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -74,7 +74,7 @@
             android:layout_below="@id/o_txt4"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 250 gram tepung beras ketan."
+            android:text="- Tepung terigu 250 gram.."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -85,7 +85,7 @@
             android:layout_below="@id/o_txt5"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 75 gram tepung beras."
+            android:text="- Tepung sagu 50 gram."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -96,7 +96,7 @@
             android:layout_below="@id/o_txt6"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 200 ml air dan 40 gr gula pasir."
+            android:text="- Gula pasir 3 sdm."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -107,7 +107,7 @@
             android:layout_below="@id/o_txt7"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 5 lembar daun pandan serta 1/6 sdt perisa pandan. "
+            android:text="- Baking powder 1/2sdt dan garam 1/4 sdt. "
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -118,7 +118,29 @@
             android:layout_below="@id/o_txt8"
             android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="- 1/4 sdt garam dan  1/8 sdt vanile. "
+            android:text="- 2 butir telur."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/o_txt10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt9"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- Santan kental 250 ml."
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/o_txt11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_txt10"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="- Minyak goreng secukupnya."
             android:textSize="12dp"
             tools:ignore="TextSizeCheck" />
 
@@ -152,8 +174,6 @@
             android:background="@drawable/button_send"
             android:text="Send"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-
 
     </RelativeLayout>
 

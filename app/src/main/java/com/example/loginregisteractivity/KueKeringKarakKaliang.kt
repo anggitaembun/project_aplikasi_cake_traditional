@@ -5,16 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class KueBasahOnde : AppCompatActivity() {
+class KueKeringKarakKaliang : AppCompatActivity() {
     private lateinit var Button_send : Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_kue_basah_onde)
-
-        Button_send = findViewById(R.id.button_send)
+        setContentView(R.layout.activity_kue_kering_karak_kaliang)
 
         Button_send.setOnClickListener {
-            val move = Intent(this@KueBasahOnde, KueBasahOnde::class.java)
+            val move = Intent(this@KueKeringKarakKaliang, KueKeringKarakKaliang::class.java)
             startActivity(move)
         }
     }
